@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+body{
+    text-align: center;
+    font-size: 2em;
+    background:linear-gradient(to bottom right, #003366,  #5c85d6);
+    height: 100vh;
+    color: #f0f5f5;
+    overflow: hidden;
+}
+section.countdown{
+    height: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.timer-container{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.4em;
+}
+div.container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4em;
+    justify-content: center;
+    color: #fff;
+}
+div.box{
+    display: flex;
+    flex-direction:column;
+    width: 3em;
+    transition: 1s ease;
+}
+.count{
+    transition: 1s ease;
+    border: 1px #fff solid;
+}
+p{
+    font-family: sevillana;
+}
