@@ -10,11 +10,9 @@ body{
     background:linear-gradient(to bottom right, #003366,  #5c85d6);
     height: 100vh;
     color: #f0f5f5;
-    overflow: hidden;
 }
 section.countdown{
     height: 100%;
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,4 +45,34 @@ div.box{
 }
 p{
     font-family: sevillana;
+}
+@media (max-width:400px) {
+    body{
+        width: 80%;
+        margin: 0 auto;
+    }
+    section.countdown{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    div.timer-container{
+        margin-top: 1.5em;
+        gap: 0.01em;
+        margin: 0 auto;
+    }
+    div.container{
+        width: 80px;
+        margin: 0 auto;
+    }
+    .count{
+        border: none;
+    }
+    h1{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    p{
+        font-size: 0.7em;
+    }
 }
